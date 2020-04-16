@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" verbose="1" >
+    <groups>
+        <run>
+            <include name="smoke"></include>
+        </run>
+    </groups>
+    <test name="LoginPageTest" >
+        <classes>
+            <class name="com.letskodeit.uk.testng.TestNg"/>
+        </classes>
+    </test>
+    <test name="HomePageTest" >
+        <classes>
+            <class name="com.letskodeit.uk.testng.TestNg"/>
+        </classes>
+    </test>
+    <test name="SignUpTest" >
+        <classes>
+            <class name="com.letskodeit.uk.testng.TestNg"/>
+        </classes>
+    </test>
+</suite>
